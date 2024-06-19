@@ -78,7 +78,7 @@ def send_email(jobs):
     msg['From'] = sender
     msg['To'] = recipient
 
-    app_password = 'vbil zrae guuy gioj'  # Replace with your app password
+    app_password = 'APP_PASSWORD'  # Replace with your app password
 
     try:
         with smtplib.SMTP('smtp.gmail.com', 587) as server:
